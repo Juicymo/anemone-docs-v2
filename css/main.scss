@@ -3,6 +3,9 @@ layout: null
 sitemap: false
 ---
 
+$fa-font-path: "../assets/fonts/font-awesome/";
+@import 'font-awesome';
+
 $body-background-color: #2B2E31;
 
 $content-max-width: 800px;

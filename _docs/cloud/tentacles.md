@@ -1,0 +1,79 @@
+---
+title: Tentacles
+category: Cloud
+order: 3
+---
+
+## What is a Tentacle?
+
+*Tentacle* is how Anemone Platform calls open hardware devices which are connected to it.
+
+> In the end, a fully grown *Anemone* has a lot of cute *Tentacles*, right? ;)
+
+## Supported Tentacles
+
+Anemone platform currently supports two open hardware devices based on [nodeMCU v2](https://www.seeedstudio.com/NodeMCU-v2-Lua-based-ESP8266-development-kit-p-2415.html) by default (we call them **Tentacles**). But *any open hardware device which is capable of using MQTT* can be connected to the Anemone Platform.
+
+Right now two low-cost hobby Tentacles based on [nodeMCU v2](https://www.seeedstudio.com/NodeMCU-v2-Lua-based-ESP8266-development-kit-p-2415.html) are supported - a [*Button*](/devices/button) and [*Display*](/devices/display). Support for an industrial quality devices from the [BigClown family](https://www.bigclown.com/) is coming soon.
+
+### Button Tentacle
+
+#### Features
+* *Based on [nodeMCU v2](https://www.seeedstudio.com/NodeMCU-v2-Lua-based-ESP8266-development-kit-p-2415.html)*
+* Connected via Wi-Fi
+* Requires USB Power
+* Low-Cost
+* Hobby usage
+
+TODO
+
+[More about Button Tentacle <i class="fa fa-arrow-right" aria-hidden="true"></i>](/devices/button)
+
+### Display Tentacle
+
+#### Features
+* *Based on [nodeMCU v2](https://www.seeedstudio.com/NodeMCU-v2-Lua-based-ESP8266-development-kit-p-2415.html)*
+* Connected via Wi-Fi
+* Requires USB Power
+* Low-Cost
+* Hobby usage
+
+TODO
+
+[More about Display Tentacle <i class="fa fa-arrow-right" aria-hidden="true"></i>](/devices/display)
+
+### BigClown (BC) Base Tentacle
+
+#### Features
+* *Based on [BigClown Base Station](https://shop.bigclown.com/modules/)*
+* Connected via USB, communicates with *Remotes* on 868 MHz Radio
+* Requires USB Power
+* Industrial quality and usage
+
+TODO
+
+> **Support for this Tentacle Coming Soon!** But a cute 3D Printable Case for it can be downloaded right now.
+
+[More about BigClown (BC) Base Tentacle <i class="fa fa-arrow-right" aria-hidden="true"></i>](/devices/bc_base)
+
+### BigClown (BC) Remote Tentacle
+
+#### Features
+* *Based on [BigClown Remote Station](https://shop.bigclown.com/modules/)*
+* Communicates with *Base* on 868 MHz Radio
+* Operated on Battery Power
+* Wireless
+* Industrial quality and usage
+
+TODO
+
+> **Support for this Tentacle Coming Soon!** But a cute 3D Printable Case for it can be downloaded right now.
+
+[More about BigClown (BC) Remote Tentacle <i class="fa fa-arrow-right" aria-hidden="true"></i>](/devices/bc_remote)
+
+## Tentacle Usage
+
+Usage of a *Tentacle* is very easy:
+
+* For the supported devices the platform will generate all the necessary source code needed to connect the device to a platform and shows a step-by-step instructions how to upload the generated source code to the device.
+* For other devices *(not directly supported)*, the generated MQTT credentials can be used to establish MQTT connection with *Anemone Cloud*.

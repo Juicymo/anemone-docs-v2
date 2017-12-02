@@ -2,37 +2,47 @@
 title: Welcome
 ---
 
-This is the **Edition** template from [CloudCannon](http://cloudcannon.com/).
-**Edition** is perfect for documenting your product, application or service.
-It's populated with example content to give you some ideas.
+Anemone is open platform for experiments with Internet of Things.
 
-ChatApp is a fictional chat application for sending messages and media to others.
-Teams and friend groups would use ChatApp to stay up to date if it existed.
+In Anemone, you can create *flows* - small applications which run in the cloud and load input or data from some places and send or store this data to another places.
 
-> [Sign up](http://example.com/signup) or learn more about ChatApp at [example.com](http://example.com/).
+In addition you can send data to the *flows* or receive data from them by an *Open Hardware device* or by a *Mobile App*.
+
+Anemone platform can be used entirelly **free of charge**.
+
+> You can [sign up](https://www.anemone.cloud/users/sign_up) for free or learn more about the platform at [www.anemone.cloud](https://www.anemone.cloud).
 
 ### Getting Started
 
-Getting a message sent is quick and easy with ChatApp:
+Getting started with Anemone is quick and easy:
 
-1. Sign up for an account
-2. Add your friends from their email addresses
-3. Type a message or send a photo
+1. [Sign up](https://www.anemone.cloud/users/sign_up) for an account for free
+2. Add your first **Tentacle**
+3. Create your first **Flow**
+4. Add your Tentacle and Mobile App connection to the Flow
+5. Download our [mobile apps](/overview#mobile-app) and sign in
+6. Play with your new flow
 
-> Feel free to send us a message at [feedback@example.com](mailto:feedback@example.com) with your feedback.
+> Feel free to send us a message at [feedback@anemone.cloud](mailto:feedback@anemone.cloud) with your feedback.
 
 ### Features
 
-Explore more of ChatApp by reading about our features:
+> With Anemone platform your web application can now interact with the physical world of **Internet of Things** and use a **Mobile App** for Android and iOS. Both for free.
 
-#### Media
+Anemone IoT Platform has the following main features.
 
-Send images, videos and other media to people. Sources include your computer, phone and Facebook.
+#### Flow Editor
 
-#### Contact Syncing
+Flows can be created or adjusted online in our flow based programming editor. Simple things can be done by an easy *drag-and-drop*. More complex thing can be programmed using *JavaScript*.
 
-Sync your contact list with your phone and/or Facebook contacts. Never lose your contacts between devices again!
+#### Open Hardware Devices
 
-#### Devices
+Anemone platform currently supports two open hardware devices based on [nodeMCU v2](https://www.seeedstudio.com/NodeMCU-v2-Lua-based-ESP8266-development-kit-p-2415.html) by default (we call them **Tentacles**). But any open hardware device which is capable of using MQTT can be connected to the Anemone Platform.
 
-ChatApp is available everywhere. Find out how to set it up on your all your devices.
+Right now two low-cost hobby Tentacles based on [nodeMCU v2](https://www.seeedstudio.com/NodeMCU-v2-Lua-based-ESP8266-development-kit-p-2415.html) are supported - a *button* and *display*. But support for an industrial quality devices from the [BigClown family](https://www.bigclown.com/) is coming soon.
+
+#### Mobile App
+
+Anemone Platform has its own mobile app for [Android]() and [iOS]().
+
+After signing in you can interact with your Flows from you mobile device. You can read or write values and trigger actions in your *Flow*.

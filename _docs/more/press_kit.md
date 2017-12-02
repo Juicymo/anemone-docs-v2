@@ -1,8 +1,10 @@
 ---
-title: Documents
-category: Media
-order: 3
+title: Press Kit
+category: More
+order: 2
 ---
+
+Anemone is not a software solution. It is a platform, and as such it has a cute identity - logo, design direction and more.
 
 Share documents with your friends! Send work or school projects from your computer or phone.
 

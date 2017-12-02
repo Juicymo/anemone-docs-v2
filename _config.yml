@@ -11,15 +11,18 @@ show_full_navigation: true
 logo: /siteicon.png
 description: Documentation for the Anemone IoT Platform.
 author:
-  name: Juicymo s.r.o.
+  name: Anemone Team
   email:
   twitter: csas_devs # twitter username without the @ symbol
 social:
-  name: Edition Template
+  name: Anemone IoT Platform
   links:
     - https://www.anemone.cloud
     - https://developers.csas.cz/
     - https://github.com/Juicymo/anemone-docs-v2
+
+font-awesome:
+  assets: true
 
 # -----
 # Build
@@ -30,6 +33,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-font-awesome-sass
 
 exclude:
   - Gemfile
