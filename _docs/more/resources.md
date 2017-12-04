@@ -21,7 +21,7 @@ You can find more about Anemone Ecosystem at:
 
 ## 3D Printable Tentacle Cases
 
-You can download and 3D print a cute case for any of Anemone Tentacles from:
+You can download and 3D print a cute case for any of Anemone Tentacles from *Thingiverse*:
 
   * Anemone v2 Tentacles:
     * [Button Tentacle (NodeMCUv2)](#)
