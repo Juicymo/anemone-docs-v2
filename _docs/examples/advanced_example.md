@@ -10,4 +10,4 @@ TODO
 
 -----
 
-[<i class="fa fa-arrow-left" aria-hidden="true"></i> Previous chapter: Flows / Minimal Flow](/examples/minimal_flow) | [Next chapter: More / Who is behing it <i class="fa fa-arrow-right" aria-hidden="true"></i>](/more/authors)
+[<i class="fa fa-arrow-left" aria-hidden="true"></i> Previous chapter: Flows / Minimal Flow](/examples/minimal_flow) | [Next chapter: More / Who is behind it <i class="fa fa-arrow-right" aria-hidden="true"></i>](/more/authors)
