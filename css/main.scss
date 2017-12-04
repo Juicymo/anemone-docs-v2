@@ -32,3 +32,11 @@ $full-width-break: $nav-width + ($space * 4) + $content-max-width;
 @import "code";
 @import "tables";
 @import "layout";
+
+article.content a {
+  color: #08ccbc;
+}
+
+nav[data-toggle='toc'] {
+  margin-top: 100px;
+}
