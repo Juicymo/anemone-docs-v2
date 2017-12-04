@@ -21,3 +21,7 @@ You can find more about Anemone at:
   * Anemone v1 Tentacles *(deprecated)*:
     * [Tentacle Mk1 *(Arduino YÚN,  deprecated)*](https://www.thingiverse.com/thing:1815218)
 * [Anemone v1 Platform Presentation](https://www.slideshare.net/nanos311/anemonecloud-open-platform-for-iot) *(deprecated)*
+
+-----
+
+[<i class="fa fa-arrow-left" aria-hidden="true"></i> Previous chapter: More / Press Kit](/more/press_kit)

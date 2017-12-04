@@ -35,3 +35,7 @@ Anemone Platform is build using awesome technologies you should not miss.
 * Anemone Tentacle is an Open Hardware device build around on the NodeMCUv2.
 * Anemone Cloud is created using Ruby on Rails
 * Anemone Mobile Client is programmed in Unity
+
+-----
+
+[<i class="fa fa-arrow-left" aria-hidden="true"></i> Previous chapter: Flows / Advanced Example](/examples/advanced_example) | [Next chapter: More / Press Kit <i class="fa fa-arrow-right" aria-hidden="true"></i>](/more/press_kit)

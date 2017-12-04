@@ -17,3 +17,9 @@ To share a document:
 > Changes made to documents after sending are not saved back, you'll have to get contacts to send you updated versions.
 
 ![](//placehold.it/800x600)
+
+TODO
+
+-----
+
+[<i class="fa fa-arrow-left" aria-hidden="true"></i> Previous chapter: More / Who is behind it](/more/authors) | [Next chapter: More / Resources <i class="fa fa-arrow-right" aria-hidden="true"></i>](/more/resources)

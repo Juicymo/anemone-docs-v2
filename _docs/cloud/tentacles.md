@@ -77,3 +77,7 @@ Usage of a *Tentacle* is very easy:
 
 * For the supported devices the platform will generate all the necessary source code needed to connect the device to a platform and shows a step-by-step instructions how to upload the generated source code to the device.
 * For other devices *(not directly supported)*, the generated MQTT credentials can be used to establish MQTT connection with *Anemone Cloud*.
+
+-----
+
+[<i class="fa fa-arrow-left" aria-hidden="true"></i> Previous chapter: Cloud / Flows](/cloud/flows) | [Next chapter: Devices / Button <i class="fa fa-arrow-right" aria-hidden="true"></i>](/devices/button)

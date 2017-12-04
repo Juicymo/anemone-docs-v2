@@ -35,14 +35,24 @@ Anemone IoT Platform has the following main features.
 
 Flows can be created or adjusted online in our flow based programming editor. Simple things can be done by an easy *drag-and-drop*. More complex thing can be programmed using *JavaScript*.
 
+[More about Flow Editor <i class="fa fa-arrow-right" aria-hidden="true"></i>](/cloud/editor)
+
 #### Open Hardware Devices
 
 Anemone platform currently supports two open hardware devices based on [nodeMCU v2](https://www.seeedstudio.com/NodeMCU-v2-Lua-based-ESP8266-development-kit-p-2415.html) by default (we call them **Tentacles**). But any open hardware device which is capable of using MQTT can be connected to the Anemone Platform.
 
 Right now two low-cost hobby Tentacles based on [nodeMCU v2](https://www.seeedstudio.com/NodeMCU-v2-Lua-based-ESP8266-development-kit-p-2415.html) are supported - a *button* and *display*. But support for an industrial quality devices from the [BigClown family](https://www.bigclown.com/) is coming soon.
 
+[More about Tentacles <i class="fa fa-arrow-right" aria-hidden="true"></i>](/cloud/tentacles)
+
 #### Mobile App
 
 Anemone Platform has its own mobile app for [Android]() and [iOS]().
 
 After signing in you can interact with your Flows from you mobile device. You can read or write values and trigger actions in your *Flow*.
+
+TODO store download buttons
+
+-----
+
+[Next chapter: Overview <i class="fa fa-arrow-right" aria-hidden="true"></i>](/overview)

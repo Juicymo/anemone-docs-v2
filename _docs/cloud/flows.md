@@ -63,3 +63,7 @@ TODO
 TODO
 
 [More about Advanced Example <i class="fa fa-arrow-right" aria-hidden="true"></i>](/examples/advanced_example)
+
+-----
+
+[<i class="fa fa-arrow-left" aria-hidden="true"></i> Previous chapter: Cloud / Editor](/cloud/editor) | [Next chapter: Cloud / Tentacles <i class="fa fa-arrow-right" aria-hidden="true"></i>](/cloud/tentacles)
