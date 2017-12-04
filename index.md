@@ -23,7 +23,7 @@ Getting started with Anemone is quick and easy:
 5. Download our [mobile apps](/overview#mobile-app) and sign in
 6. Play with your new flow
 
-> Feel free to send us a message at [feedback@anemone.cloud](mailto:feedback@anemone.cloud) with your feedback.
+> Feel free to send us a message at [anemone@anemone.cloud](mailto:anemone@anemone.cloud) with your feedback.
 
 ### Features
 

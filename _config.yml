@@ -12,7 +12,7 @@ logo: /siteicon.png
 description: Documentation for the Anemone IoT Platform.
 author:
   name: Anemone Team
-  email:
+  email: anemone@anemone.cloud
   twitter: csas_devs # twitter username without the @ symbol
 social:
   name: Anemone IoT Platform
