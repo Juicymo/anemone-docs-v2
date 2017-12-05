@@ -2,6 +2,8 @@
 title: Welcome
 ---
 
+![Anemone Platform](/images/platform.png)
+
 Anemone is open platform for experiments with Internet of Things.
 
 In Anemone, you can create *flows* - small applications which run in the cloud and load input or data from some places and send or store this data to another places.
