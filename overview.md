@@ -68,15 +68,23 @@ TODO Buttons to download the app from App Stores
 
 From the architecture (technical) point of view, the Anemone IoT Platform works in the following way.
 
+![Anemone Platform Architecture](/images/architecture.svg)
+
 ### Mr. Cloud
+
+![Anemone Platform - Mr. Cloud](/images/anemone_mr_cloud.png)
 
 Core of the platform is a web application written in Ruby on Rails. This application is the presentational website, the administration, the API for Mobile Client an MQTT subscriber. This web application is called **Mr. Cloud**.
 
 ### Tentacles
 
+![Anemone Platform - Mr. Cloud](/images/anemone_tentacle.png)
+
 Communication with **Tentacles** is performed via MQTT and coordinated by a [mosquitto MQTT broker](https://mosquitto.org/). Tentacles are the physical (hardware) part of the platform. Any hardware device capable of MQTT communication can be used as a Tentacle. We provide additional support for few selected devices. But the platform is entirelly open and it is not limited technically in this way.
 
 ### Mobile Client
+
+![Anemone Platform - Mr. Cloud](/images/anemone_mobile_client.png)
 
 Communication with **Mobile Client** is currently performed via RESTful JSON API. Updates are realized by HTTP pooling - we are aware of this limitation and a new version of the Mobile Client with full support for WebSockets will be realeased soon. Mobile Client is currently a multi-platform mobile application developed in [Unity](https://unity3d.com/) - this is causing many limitations as well, so the upcoming update will be a fully native application for iOS and Android, written in Swift and Kotlin.
 
