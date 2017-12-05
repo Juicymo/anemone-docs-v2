@@ -4,6 +4,8 @@ title: Overview
 
 Anemone Platform interconnects *open hardware devices* with a *cloud* and *mobile application*.
 
+![Anemone Platform Overview](/images/overview.png)
+
 ## Cloud
 
 The cloud (we call it `Mr. Cloud` in the platform terminology) is a place where your applications run.
