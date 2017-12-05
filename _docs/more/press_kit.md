@@ -4,7 +4,7 @@ category: More
 order: 2
 ---
 
-Anemone is not a software solution. It is a platform, and as such it has a cute identity - logo, icons, colors, design direction and more.
+Anemone is not just a software solution. It is a platform, and as such it has a cute identity - logo, icons, colors, design direction and more.
 
 ![Anemone Press Kit](/images/press_kit.png)
 
