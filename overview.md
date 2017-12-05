@@ -68,13 +68,21 @@ TODO Buttons to download the app from App Stores
 
 From the architecture (technical) point of view, the Anemone IoT Platform works in the following way.
 
+### Mr. Cloud
+
 Core of the platform is a web application written in Ruby on Rails. This application is the presentational website, the administration, the API for Mobile Client an MQTT subscriber. This web application is called **Mr. Cloud**.
+
+### Tentacles
 
 Communication with **Tentacles** is performed via MQTT and coordinated by a [mosquitto MQTT broker](https://mosquitto.org/). Tentacles are the physical (hardware) part of the platform. Any hardware device capable of MQTT communication can be used as a Tentacle. We provide additional support for few selected devices. But the platform is entirelly open and it is not limited technically in this way.
 
+### Mobile Client
+
 Communication with **Mobile Client** is currently performed via RESTful JSON API. Updates are realized by HTTP pooling - we are aware of this limitation and a new version of the Mobile Client with full support for WebSockets will be realeased soon. Mobile Client is currently a multi-platform mobile application developed in [Unity](https://unity3d.com/) - this is causing many limitations as well, so the upcoming update will be a fully native application for iOS and Android, written in Swift and Kotlin.
 
-The parallel **Flow** pipelines execution is driven by a background job processing. We schedule a background job for processing one pipeline. When a fork is required, new job for a forked pipeline is scheduled. Whole system is running on multiple workers which means that a true paralelism can be achieved.
+### Flows
+
+The parallel **Flow** pipelines execution is driven by a *background job processing*. We schedule a background job for processing one pipeline. When a fork is required, new job for a forked pipeline is scheduled. Whole system is running on multiple workers which means that a true paralelism can be achieved.
 
 The **Flow Editor** is a SPA (Single Page Web Application) written in JavaScript. It is connected to Mr. Cloud via RESTful JSON API and WebSockets. The Flow Editor is currently written in jQuery. A complete refactoring to Angular is planned in future.
 
