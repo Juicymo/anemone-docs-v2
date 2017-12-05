@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Anemone Docs
+title: Anemone Docs (v2)
 url: "https://docs.anemone.cloud"
 baseurl:
 google_analytics_key:
@@ -23,6 +23,9 @@ social:
 
 font-awesome:
   assets: true
+
+sass:
+  style: compressed
 
 # -----
 # Build
@@ -74,10 +77,3 @@ defaults:
     values:
       _comments:
         type: Marks the impact of this release
-
-# -----------
-# CloudCannon
-
-types:
-  - minor
-  - major

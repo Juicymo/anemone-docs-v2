@@ -4,21 +4,17 @@ category: More
 order: 2
 ---
 
-Anemone is not a software solution. It is a platform, and as such it has a cute identity - logo, design direction and more.
+Anemone is not a software solution. It is a platform, and as such it has a cute identity - logo, icons, colors, design direction and more.
 
-Share documents with your friends! Send work or school projects from your computer or phone.
+![Anemone Press Kit](/images/press_kit.png)
 
-To share a document:
+## Download
 
-1. Open a message with someone
-2. Select the **Send Media** button
-3. Pick a document
+Feel free to download entire Press Kit of the platform - including all icons, logos and design assets. All available in multiple formats and dimensions including `PNG` and `SVG`.
 
-> Changes made to documents after sending are not saved back, you'll have to get contacts to send you updated versions.
-
-![](//placehold.it/800x600)
-
-TODO
+<a href="/downloads/anemone_v2_press_kit.zip" class="btn btn-lg btn-primary">
+<i class="fa fa-download" aria-hidden="true"></i> Download Press Kit (.zip)
+</a>
 
 -----
 
