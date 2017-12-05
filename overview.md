@@ -56,7 +56,13 @@ Two low cost Tentacles based on the hobby low-cost [nodeMCU v2](https://www.seee
 
 ## Mobile App
 
-Anemone Platform ships with a Mobile App for [iOS](#) and [Android](#) operating systems. The mobile app is called `Mobile Client` in platform terminology.
+Anemone Platform ships with a Mobile App for [iOS](#) and [Android](#) operating systems. The mobile app is called `Mobile Client` in the platform terminology.
+
+*Mobile Client* can be used by a signed in user to access Flows owned by him. User can interact with these flows by triggering input values or actions or by reading output values.
+
+Content and options available in the *Mobile Client* are fully driven by the flow. As such can be configured exclusively in the [Flow Editor](/cloud/editor).
+
+TODO Buttons to download the app from App Stores
 
 ## Architecture
 
