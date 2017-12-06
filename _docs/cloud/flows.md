@@ -4,15 +4,9 @@ category: Cloud
 order: 2
 ---
 
-## Flow Components
+Flows are designed in the [Flow Editor](/cloud/editor).
 
-### Pipelines
-
-### Nodes
-
-### Forks
-
-### How it works
+## How it works
 
 ## Example Flows
 
