@@ -45,9 +45,9 @@ The following components are needed for your *Button Tentacle*:
 
 Button Tentacle is directly supported by the Anemone IoT Platform. When adding a Tentacle, select a `Button` as its type. *Mr. Cloud* will generate a sketch which can be used to program the *NodeMCU v2* device accordingly. Instructions how to program the device will be shown on your Tentacle detail page together with a button to download the generated sketch `.ino` file.
 
-> The generated `.ino` file uses the well known Arduino Ecosystem.
+> The generated `.ino` file uses the well known *Arduino Ecosystem*.
 
-You can use the `Serial Monitor` in the *Arduino IDE* to debug the Tentacle - the Tentacle is writing there that it is doing.
+You can use the `Serial Monitor` in the *Arduino IDE* to debug the Tentacle - the Tentacle is writing there what it is doing.
 
 ![Button Tentacle](/images/button_tentacle.png)
 
