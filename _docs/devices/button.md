@@ -36,7 +36,7 @@ The following components are needed for your *Button Tentacle*:
 3. Assemble the 3D printed case - it comes in 5 parts.
    1. First you need to put the both small "Y" like legs into the top part of the button - their dimensions are done in a way, that you cannot do it in the wrong way.
    2. Then you should plug the USB cable to your NodeMCU v2.
-   3. Then put your NodeMCU v2 into the bottom part. Its legs should fir into the holes in the bottom part nicely.
+   3. Then put your NodeMCU v2 into the bottom part. Its legs should fit into the holes in the bottom part nicely.
    4. Then you should put the circular walls/border part on top of the bottom part where your NodeMCU v2 is mounted. Make sure both parts are aligned at the bottom - so your Button Tentacle can stand on table firmly.
    5. Last step is to gently put the top part with the "Y" like legs attached on the NodeMCU v2. The cone like structure on the bottom side of the top part will press the `Flash` button on the NodeMCU v2 when the button is pressed.
 4. Follow the instructions on your Tentacle detail page in the Anemone Dashboard where is described how the generated `.ino` sketch files should be uploaded.

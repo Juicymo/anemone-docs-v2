@@ -46,7 +46,7 @@ TODO
 #### APIs
 * *Does not need any API*
 
-TODO
+Minimal Flow demonstrates the most basic flow which can be created. When message is triggered by the Trigger node, a value is logged into a console. This flow does not require any hardware (tentacles) to function.
 
 [More about Minimal Flow <i class="fa fa-arrow-right" aria-hidden="true"></i>](/examples/minimal_flow)
 

@@ -30,7 +30,7 @@ Right now two low-cost hobby Tentacles based on [nodeMCU v2](https://www.seeedst
 * Low-Cost
 * Hobby usage
 
-Button Tentacle is an open hardware button. It is connected to the Internet via Wi-Fi. It has to be connected to the power via USB cable. Pressing it can trigger action in your [Flow](/cloud/flows).
+*Button Tentacle* is an open hardware button. It is connected to the Internet via Wi-Fi. It has to be connected to the power via USB cable. Pressing it can trigger action in your [Flow](/cloud/flows).
 
 [More about Button Tentacle <i class="fa fa-arrow-right" aria-hidden="true"></i>](/devices/button)
 
@@ -43,7 +43,7 @@ Button Tentacle is an open hardware button. It is connected to the Internet via 
 * Low-Cost
 * Hobby usage
 
-TODO
+*Display Tentacle* is an open hardware display. It is connected to the Internet via Wi-Fi. It has to be connected to the power via USB cable. It can show some result value from your [Flow](/cloud/flows).
 
 [More about Display Tentacle <i class="fa fa-arrow-right" aria-hidden="true"></i>](/devices/display)
 
