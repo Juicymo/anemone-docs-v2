@@ -8,7 +8,11 @@ Flows are designed in the [Flow Editor](/cloud/editor).
 
 ## How it works
 
+The principle and architecture of Flows is decribed in the [Pipelines & Nodes](/cloud/editor#pipelines) section of the [Flow Editor documentation](/cloud/editor).
+
 ## Example Flows
+
+We have prepared 4 example flows which should introduce you to the features of the platform.
 
 ### Shopping Button
 
