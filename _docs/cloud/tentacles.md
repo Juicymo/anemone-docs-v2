@@ -14,7 +14,12 @@ order: 3
 
 Anemone platform currently supports two open hardware devices based on [nodeMCU v2](https://www.seeedstudio.com/NodeMCU-v2-Lua-based-ESP8266-development-kit-p-2415.html) by default (we call them **Tentacles**). But *any open hardware device which is capable of using MQTT* can be connected to the Anemone Platform.
 
-Right now two low-cost hobby Tentacles based on [nodeMCU v2](https://www.seeedstudio.com/NodeMCU-v2-Lua-based-ESP8266-development-kit-p-2415.html) are supported - a [*Button*](/devices/button) and [*Display*](/devices/display). Support for an industrial quality devices from the [BigClown family](https://www.bigclown.com/) is coming soon.
+| ![Button Tentacle](/images/button_tentacle_small.png) | ![Display Tentacle](/images/display_tentacle_small.png) |
+
+
+Right now two low-cost hobby Tentacles based on [nodeMCU v2](https://www.seeedstudio.com/NodeMCU-v2-Lua-based-ESP8266-development-kit-p-2415.html) are supported - a [*Button*](/devices/button) and [*Display*](/devices/display).
+
+> Support for an industrial quality devices from the [BigClown family](https://www.bigclown.com/) is coming soon.
 
 ### Button Tentacle
 
@@ -25,7 +30,7 @@ Right now two low-cost hobby Tentacles based on [nodeMCU v2](https://www.seeedst
 * Low-Cost
 * Hobby usage
 
-TODO
+Button Tentacle is an open hardware button. It is connected to the Internet via Wi-Fi. It has to be connected to the power via USB cable. Pressing it can trigger action in your [Flow](/cloud/flows).
 
 [More about Button Tentacle <i class="fa fa-arrow-right" aria-hidden="true"></i>](/devices/button)
 
