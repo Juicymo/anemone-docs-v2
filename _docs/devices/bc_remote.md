@@ -12,6 +12,19 @@ order: 4
 
 *BigClown Remote Tentacle* allows you to read various data and send it to your [Flow](/cloud/flows). It has a modular sensor architecture (sensors in BigClown world are called *Tags*). BigClown Remote Tentacle does not have ability to connect itself to the internet *(therefore to the Anemone Cloud)* directly. You will need to connect it wirelessly to the [BigClown Base Tentacle](#bigclown-bc-base-tentacle) or directly to the [BigClown USB Dongle](https://shop.bigclown.com/usb-dongle/).
 
+## How to build
+
+### Components
+
+The following components are needed for your *BigClown Remote Tentacle*:
+
+1. `1x` The [Core Module](https://shop.bigclown.com/core-module/)
+2. `1x` The [Tag Module](https://shop.bigclown.com/tag-module/)
+3. `1x` The [Battery Module](https://shop.bigclown.com/battery-module/)
+4. `4x` The AAA battery
+
+You can add individual [sensor tags](https://shop.bigclown.com/search/?string=tag) as needed.
+
 ## How to use
 
 > **Support for this Tentacle Coming Soon!** But a cute 3D Printable Case for it can be downloaded right now.

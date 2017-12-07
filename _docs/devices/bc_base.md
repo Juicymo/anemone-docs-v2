@@ -12,6 +12,19 @@ order: 3
 
 *BigClown Base Tentacle* allows you to read various data and send it to your [Flow](/cloud/flows). It has a modular sensor architecture (sensors in BigClown world are called *Tags*). BigClown Base Tentacle does not have ability to connect itself to the internet *(therefore to the Anemone Cloud)* directly. You will need to connect it to your computer or RaspberryPi via USB cable or wirelessly to the [BigClown USB Dongle](https://shop.bigclown.com/usb-dongle/).
 
+## How to build
+
+### Components
+
+The following components are needed for your *BigClown Base Tentacle*:
+
+1. `1x` The [Core Module](https://shop.bigclown.com/core-module/)
+2. `1x` The [Power Module](https://shop.bigclown.com/power-module/)
+3. `1x` The [Base Module](https://shop.bigclown.com/base-module/) *(but the bottom part of this case is replacing it)*
+4. `1x` USB-A to micro-USB cable
+
+You can add individual [sensor tags](https://shop.bigclown.com/search/?string=tag) as needed.
+
 ## How to use
 
 > **Support for this Tentacle Coming Soon!** But a cute 3D Printable Case for it can be downloaded right now.
