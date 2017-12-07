@@ -6,7 +6,7 @@ order: 4
 
 [<i class="fa fa-arrow-up" aria-hidden="true"></i> Back to Flows](/cloud/flows)
 
-TODO
+Advanced Example demonstrates how a Button and Display can be used together. When a button is pressed a current time from server is displayed on the display.
 
 -----
 

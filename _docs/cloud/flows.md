@@ -22,7 +22,7 @@ We have prepared 4 example flows which should introduce you to the features of t
 #### APIs
 * *Uses **Shopping List** Endpoint from CSAS WebAPI*
 
-TODO
+Do you know Amazon Dash Buttons and how users love them? We created our own open-source button for your shopping list. Try it and use it as an inspiration for your business.
 
 [More about Shopping Button Flow <i class="fa fa-arrow-right" aria-hidden="true"></i>](/examples/shopping_button)
 
@@ -34,7 +34,7 @@ TODO
 #### APIs
 * *Uses **Account Balance** Endpoint from CSAS WebAPI secured by OAuth*
 
-TODO
+What is your current balance? How much money do you need to save for a car? Connect Display Tentacle with WebAPI from the largest Czech bank Česká spořitelna. Your banking information can be displayed for example in garage.
 
 [More about Personal Finances Flow <i class="fa fa-arrow-right" aria-hidden="true"></i>](/examples/personal_finances)
 
@@ -58,7 +58,7 @@ Minimal Flow demonstrates the most basic flow which can be created. When message
 #### APIs
 * *Does not need any API*
 
-TODO
+Advanced Example demonstrates how a Button and Display can be used together. When a button is pressed a current time from server is displayed on the display.
 
 [More about Advanced Example <i class="fa fa-arrow-right" aria-hidden="true"></i>](/examples/advanced_example)
 

@@ -6,7 +6,7 @@ order: 2
 
 [<i class="fa fa-arrow-up" aria-hidden="true"></i> Back to Flows](/cloud/flows)
 
-TODO
+What is your current balance? How much money do you need to save for a car? Connect Display Tentacle with WebAPI from the largest Czech bank Česká spořitelna. Your banking information can be displayed for example in garage.
 
 -----
 
