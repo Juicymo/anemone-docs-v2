@@ -55,7 +55,7 @@ Right now two low-cost hobby Tentacles based on [nodeMCU v2](https://www.seeedst
 * Requires USB Power
 * Industrial quality and usage
 
-> **Support for this Tentacle Coming Soon!** But a cute 3D Printable Case for it can be downloaded right now.
+> **Support for this Tentacle Coming Soon!** But [a cute 3D Printable Case](https://www.thingiverse.com/thing:2679107) for it can be [downloaded](https://www.thingiverse.com/thing:2679107) right now.
 
 *BigClown Base Tentacle* allows you to read various data and send it to your [Flow](/cloud/flows). It has a modular sensor architecture (sensors in BigClown world are called *Tags*). BigClown Base Tentacle does not have ability to connect itself to the internet *(therefore to the Anemone Cloud)* directly. You will need to connect it to your computer or RaspberryPi via USB cable or wirelessly to the [BigClown USB Dongle](https://shop.bigclown.com/usb-dongle/).
 
@@ -74,7 +74,7 @@ On the other hand *BigClown Base Tentacle* can receive wireless data from the re
 * Wireless
 * Industrial quality and usage
 
-> **Support for this Tentacle Coming Soon!** But a cute 3D Printable Case for it can be downloaded right now.
+> **Support for this Tentacle Coming Soon!** But a [cute 3D Printable Case](https://www.thingiverse.com/thing:2698754) for it can be [downloaded](https://www.thingiverse.com/thing:2698754) right now.
 
 *BigClown Remote Tentacle* allows you to read various data and send it to your [Flow](/cloud/flows). It has a modular sensor architecture (sensors in BigClown world are called *Tags*). BigClown Remote Tentacle does not have ability to connect itself to the internet *(therefore to the Anemone Cloud)* directly. You will need to connect it wirelessly to the [BigClown Base Tentacle](#bigclown-bc-base-tentacle) or directly to the [BigClown USB Dongle](https://shop.bigclown.com/usb-dongle/).
 

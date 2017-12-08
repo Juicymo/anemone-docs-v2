@@ -23,11 +23,11 @@ The following components are needed for your *BigClown Base Tentacle*:
 3. `1x` The [Base Module](https://shop.bigclown.com/base-module/) *(but the bottom part of this case is replacing it)*
 4. `1x` USB-A to micro-USB cable
 
-You can add individual [sensor tags](https://shop.bigclown.com/search/?string=tag) as needed.
+You can add up to 3 individual [sensor tags](https://shop.bigclown.com/search/?string=tag) as needed.
 
 ## How to use
 
-> **Support for this Tentacle Coming Soon!** But a cute 3D Printable Case for it can be downloaded right now.
+> **Support for this Tentacle Coming Soon!** But [a cute 3D Printable Case](https://www.thingiverse.com/thing:2679107) for it can be [downloaded](https://www.thingiverse.com/thing:2679107) right now.
 
 ![BigClown Base Station](/images/big_clown_base_station.jpg)
 

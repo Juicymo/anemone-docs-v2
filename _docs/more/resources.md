@@ -26,8 +26,8 @@ You can download and 3D print a cute case for any of Anemone Tentacles from *Thi
   * Anemone v2 Tentacles:
     * [Button Tentacle (NodeMCUv2)](#)
     * [Display Tentacle (NodeMCUv2)](#)
-    * [BigClown Base Tentacle (BigClown Base Station)](#)
-    * [BigClown Remote Tentacle (BigClown Remote Station)](#)
+    * [BigClown Base Tentacle (BigClown Base Station)](https://www.thingiverse.com/thing:2679107)
+    * [BigClown Remote Tentacle (BigClown Remote Station)](https://www.thingiverse.com/thing:2698754)
   * Anemone v1 Tentacles *(deprecated)*:
     * [Tentacle Mk1 *(Arduino YÚN,  deprecated)*](https://www.thingiverse.com/thing:1815218)
 

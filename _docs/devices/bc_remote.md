@@ -23,11 +23,11 @@ The following components are needed for your *BigClown Remote Tentacle*:
 3. `1x` The [Battery Module](https://shop.bigclown.com/battery-module/)
 4. `4x` The AAA battery
 
-You can add individual [sensor tags](https://shop.bigclown.com/search/?string=tag) as needed.
+You can add up to 8 individual [sensor tags](https://shop.bigclown.com/search/?string=tag) as needed.
 
 ## How to use
 
-> **Support for this Tentacle Coming Soon!** But a cute 3D Printable Case for it can be downloaded right now.
+> **Support for this Tentacle Coming Soon!** But a [cute 3D Printable Case](https://www.thingiverse.com/thing:2698754) for it can be [downloaded](https://www.thingiverse.com/thing:2698754) right now.
 
 ![BigClown Remote Station](/images/big_clown_remote_station.jpg)
 
