@@ -17,10 +17,10 @@ We have prepared 4 example flows which should introduce you to the features of t
 ### Shopping Button
 
 #### Tentacles
-* *Uses **Button Tentacle***
+* *Uses a **Button Tentacle***
 
 #### APIs
-* *Uses **Shopping List** Endpoint from CSAS WebAPI*
+* *Uses a **Shopping List** Endpoint from CSAS WebAPI*
 
 Do you know Amazon Dash Buttons and how users love them? We created our own open-source button for your shopping list. Try it and use it as an inspiration for your business.
 
@@ -29,12 +29,12 @@ Do you know Amazon Dash Buttons and how users love them? We created our own open
 ### Personal Finances
 
 #### Tentacles
-* *Uses **Display Tentacle***
+* *Uses a **Display Tentacle***
 
 #### APIs
-* *Uses **Account Balance** Endpoint from CSAS WebAPI secured by OAuth*
+* *Uses an **Account Balance** Endpoint from CSAS WebAPI secured by OAuth*
 
-What is your current balance? How much money do you need to save for a car? Connect Display Tentacle with WebAPI from the largest Czech bank Česká spořitelna. Your banking information can be displayed for example in garage.
+What is your current balance? How much money do you need to save for a car? Connect Display Tentacle with WebAPI from the largest Czech bank Česká spořitelna. Your banking information can be displayed for example in a garage.
 
 [More about Personal Finances Flow <i class="fa fa-arrow-right" aria-hidden="true"></i>](/examples/personal_finances)
 
@@ -46,14 +46,14 @@ What is your current balance? How much money do you need to save for a car? Conn
 #### APIs
 * *Does not need any API*
 
-Minimal Flow demonstrates the most basic flow which can be created. When message is triggered by the Trigger node, a value is logged into a console. This flow does not require any hardware (tentacles) to function.
+Minimal Flow demonstrates the most basic flow which can be created. When a message is triggered by the Trigger node, a value is logged into a console. This flow does not require any hardware (tentacles) to function.
 
 [More about Minimal Flow <i class="fa fa-arrow-right" aria-hidden="true"></i>](/examples/minimal_flow)
 
 ### Advanced Example
 
 #### Tentacles
-* *Uses **Button Tentacle** and **Display Tentacle***
+* *Uses a **Button Tentacle** and a **Display Tentacle***
 
 #### APIs
 * *Does not need any API*

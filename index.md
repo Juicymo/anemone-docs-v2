@@ -2,13 +2,13 @@
 title: Welcome
 ---
 
-![Anemone Platform](/images/platform.png)
+![Anemone Platform](/images/platform_large.png){:width="156px"}
 
-Anemone is open platform for experiments with Internet of Things.
+Anemone is an open platform for experiments with Internet of Things.
 
 In Anemone, you can create *flows* - small applications which run in the cloud and load input or data from some places and send or store this data to another places.
 
-In addition you can send data to the *flows* or receive data from them by an *Open Hardware device* or by a *Mobile App*.
+In addition you can send data to *flows* or receive data from them by an *Open Hardware device* or by a *Mobile App*.
 
 Anemone platform can be used entirelly **free of charge**.
 
@@ -18,7 +18,7 @@ Anemone platform can be used entirelly **free of charge**.
 
 Getting started with Anemone is quick and easy:
 
-1. [Sign up](https://www.anemone.cloud/users/sign_up) for an account for free
+1. [Sign up](https://www.anemone.cloud/users/sign_up) for a free account
 2. Add your first **Tentacle**
 3. Create your first **Flow**
 4. Add your Tentacle and Mobile App connection to the Flow
@@ -35,7 +35,7 @@ Anemone IoT Platform has the following main features.
 
 #### Flow Editor
 
-Flows can be created or adjusted online in our flow based programming editor. Simple things can be done by an easy *drag-and-drop*. More complex thing can be programmed using *JavaScript*.
+Flows can be created or adjusted online in our flow based programming editor. Simple things can be done by an easy *drag-and-drop*. More complex things can be programmed using *JavaScript*.
 
 [More about Flow Editor <i class="fa fa-arrow-right" aria-hidden="true"></i>](/cloud/editor)
 

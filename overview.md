@@ -10,7 +10,7 @@ Anemone Platform interconnects *open hardware devices* with a *cloud* and *mobil
 
 The cloud (we call it `Mr. Cloud` in the platform terminology) is a place where your applications run.
 
-Anemone application is called a `Flow`. One signed up user can have many flows running in the *Mr. Cloud* at the same time.
+Anemone application is called `Flow`. One signed up user can have many flows running in the *Mr. Cloud* at the same time.
 
 Mr. Cloud is a place to where all open hardware devices (we call them `Tentacles`) are connected via *MQTT*. As a user signed up you can have any number of Tentacles connected to your account at the same time.
 
@@ -18,7 +18,7 @@ Mr. Cloud is a place to where all open hardware devices (we call them `Tentacles
 
 ## Flows
 
-Anemone application is called *a Flow*. Flows run and live in the *Mr. Cloud*.
+Anemone application is called *Flow*. Flows run and live in the *Mr. Cloud*.
 
 > Flow is a computer program created using a [flow based programming](https://en.wikipedia.org/wiki/Flow-based_programming).
 
@@ -36,7 +36,7 @@ Flows are event based. This means that every single time when an *input* node is
 
 > Flows in the Anemone Platform are created and edited online using a `Drag & Drop` and `JavaScript` in a browser in our custom [Flow Editor](/cloud/editor).
 
-Anemone Platform does support multiple different nodes for every type. For example input node can be a *physical button* or *software button in the mobile app*. Application nodes can *send or load data from some API* or be a `JavaScript` funcion. Output node can be a *physical display* on a open hardware device or a *value in the mobile app*.
+Anemone Platform does support multiple different nodes for every type. For example input node can be a *physical button* or a *software button in the mobile app*. Application nodes can *send or load data from some API* or be a `JavaScript` funcion. Output node can be a *physical display* on open hardware device or *value in the mobile app*.
 
 [More about Flows <i class="fa fa-arrow-right" aria-hidden="true"></i>](/cloud/flows)
 
@@ -58,9 +58,9 @@ Two low cost Tentacles based on the hobby low-cost [nodeMCU v2](https://www.seee
 
 ## Mobile App
 
-Anemone Platform ships with a Mobile App for [iOS](#) and [Android](#) operating systems. The mobile app is called `Mobile Client` in the platform terminology.
+Anemone Platform ships with a Mobile App for both [iOS](#) and [Android](#) operating systems. The mobile app is called `Mobile Client` in the platform terminology.
 
-*Mobile Client* can be used by a signed in user to access Flows owned by him. User can interact with these flows by triggering input values or actions or by reading output values.
+*Mobile Client* can be used by a signed in user to access Flows owned by him. User can interact with these flows by triggering input values and actions or by reading output values.
 
 Content and options available in the *Mobile Client* are fully driven by the flow. As such can be configured exclusively in the [Flow Editor](/cloud/editor).
 
@@ -74,27 +74,27 @@ From the architecture (technical) point of view, the Anemone IoT Platform works 
 
 ### Mr. Cloud
 
-![Anemone Platform - Mr. Cloud](/images/anemone_mr_cloud.png)
+![Anemone Platform - Mr. Cloud](/images/anemone_mr_cloud.png){:width="90px"}
 
 Core of the platform is a web application written in Ruby on Rails. This application is the presentational website, the administration, the API for Mobile Client an MQTT subscriber. This web application is called **Mr. Cloud**.
 
 ### Tentacles
 
-![Anemone Platform - Tentacle Icon](/images/anemone_tentacle.png)
+![Anemone Platform - Tentacle Icon](/images/anemone_tentacle.png){:width="60px"}
 
-Communication with **Tentacles** is performed via MQTT and coordinated by a [mosquitto MQTT broker](https://mosquitto.org/). Tentacles are the physical (hardware) part of the platform. Any hardware device capable of MQTT communication can be used as a Tentacle. We provide additional support for few selected devices. But the platform is entirelly open and it is not limited technically in this way.
+Communication with **Tentacles** is performed via MQTT and coordinated by a [mosquitto MQTT broker](https://mosquitto.org/). Tentacles are the physical (hardware) part of the platform. Any hardware device capable of MQTT communication can be used as a Tentacle. We provide additional support for a couple of selected devices. But the platform is entirely open and it is not limited technically in this way.
 
 ### Mobile Client
 
-![Anemone Platform - Mobile Client Icon](/images/anemone_mobile_client.png)
+![Anemone Platform - Mobile Client Icon](/images/anemone_mobile_client.png){:width="93px"}
 
-Communication with **Mobile Client** is currently performed via RESTful JSON API. Updates are realized by HTTP pooling - we are aware of this limitation and a new version of the Mobile Client with full support for WebSockets will be realeased soon. Mobile Client is currently a multi-platform mobile application developed in [Unity](https://unity3d.com/) - this is causing many limitations as well, so the upcoming update will be a fully native application for iOS and Android, written in Swift and Kotlin.
+Communication with **Mobile Client** is currently performed via RESTful JSON API. Updates are realized by HTTP pooling - we are aware of this limitation and a new version of the Mobile Client with full support for WebSockets will be released soon. Mobile Client is currently a multi-platform mobile application developed in [Unity](https://unity3d.com/) - this is causing many limitations as well, so the upcoming update will be a fully native application for both iOS and Android.
 
 ### Flows
 
 The parallel **Flow** pipelines execution is driven by a *background job processing*. We schedule a background job for processing one pipeline. When a fork is required, new job for a forked pipeline is scheduled. Whole system is running on multiple workers which means that a true paralelism can be achieved.
 
-The **Flow Editor** is a SPA (Single Page Web Application) written in JavaScript. It is connected to Mr. Cloud via RESTful JSON API and WebSockets. The Flow Editor is currently written in jQuery. A complete refactoring to Angular is planned in future.
+The **Flow Editor** is a web application written in JavaScript. It is connected to Mr. Cloud via RESTful JSON API and WebSockets.
 
 -----
 

@@ -10,7 +10,7 @@ order: 4
 
 ## Introduction
 
-*BigClown Remote Tentacle* allows you to read various data and send it to your [Flow](/cloud/flows). It has a modular sensor architecture (sensors in BigClown world are called *Tags*). BigClown Remote Tentacle does not have ability to connect itself to the internet *(therefore to the Anemone Cloud)* directly. You will need to connect it wirelessly to the [BigClown Base Tentacle](#bigclown-bc-base-tentacle) or directly to the [BigClown USB Dongle](https://shop.bigclown.com/usb-dongle/).
+*BigClown Remote Tentacle* allows you to read various data and send it to your [Flow](/cloud/flows). It has a modular sensor architecture (sensors in BigClown world are called *Tags*). BigClown Remote Tentacle does not have the ability to connect itself to the internet *(therefore to the Anemone Cloud)* directly. You will need to connect it wirelessly to the [BigClown Base Tentacle](#bigclown-bc-base-tentacle) or directly to the [BigClown USB Dongle](https://shop.bigclown.com/usb-dongle/).
 
 ## How to build
 
@@ -31,9 +31,9 @@ You can add up to 8 individual [sensor tags](https://shop.bigclown.com/search/?s
 
 ![BigClown Remote Station](/images/big_clown_remote_station.jpg)
 
-On the other hand *BigClown Remote Tentacle* is **the ONLY Tentacle which can operate completelly wirelessly**. It can collect data and send them over radio. It is povered by four AAA batteries.
+On the other hand *BigClown Remote Tentacle* is **the ONLY Tentacle which can operate completely wirelessly**. It can collect data and send them over radio. It is povered by four AAA batteries.
 
-> BigClown Tentacles are more complex, versatile and robust than the low-cost tentacles based on NodeMCU v2. BigClown Tentacles have industrial quality. But all come for a cost. BigClown Tentacles are also more expensive.
+> BigClown Tentacles are more complex, versatile and robust than the low-cost tentacles based on NodeMCU v2. BigClown Tentacles have industrial quality. But all of this comes for a cost. BigClown Tentacles are also more expensive.
 
 You can find more about the [BigClown devices](https://www.bigclown.com/kits/) on the [BigClown website](https://www.bigclown.com/).
 

@@ -33,7 +33,7 @@ You can add up to 3 individual [sensor tags](https://shop.bigclown.com/search/?s
 
 On the other hand *BigClown Base Tentacle* can receive wireless data from the rest of your BigClown network (for example from the [BigClown (BC) Remote Tentacle](#bigclown-bc-remote-tentacle), the [BigClown USB Dongle](https://shop.bigclown.com/usb-dongle/) can be used for that purpose as well).
 
-> BigClown Tentacles are more complex, versatile and robust than the low-cost tentacles based on NodeMCU v2. BigClown Tentacles have industrial quality. But all come for a cost. BigClown Tentacles are also more expensive.
+> BigClown Tentacles are more complex, versatile and robust than the low-cost tentacles based on NodeMCU v2. BigClown Tentacles have industrial quality. But all of this comes for a cost. BigClown Tentacles are also more expensive.
 
 You can find more about the [BigClown devices](https://www.bigclown.com/kits/) on the [BigClown website](https://www.bigclown.com/).
 
