@@ -18,7 +18,6 @@ You can find more about Anemone Ecosystem at:
   * [Anemone Android App](#)
 * [Anemone v1 Platform Overview Presentation](https://www.slideshare.net/nanos311/anemonecloud-open-platform-for-iot) *(deprecated)*
 
-
 ## 3D Printable Tentacle Cases
 
 You can download and 3D print a cute case for any of Anemone Tentacles from *Thingiverse*:
