@@ -100,7 +100,7 @@ header {
 		background-color: $brand-colour;
 		color: #18cae6;
 		margin: 0;
-		font-size: 1.7rem;
+		font-size: 2.5rem;
 		line-height: 0.8;
 		letter-spacing: 0;
 		font-weight: 600;
@@ -144,7 +144,7 @@ header {
 		background-color: transparent;
 		width: $nav-width;
 		right: auto;
-		bottom: auto;
+		bottom: 0;
 
 		.open-nav {
 			display: none;
@@ -166,13 +166,27 @@ header {
 		@extend hr;
 		margin: 60px 0;
 	}
+	a {
+		text-decoration: underline;
+		&.btn {
+			color: white;
+		}
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	iframe {
+		max-width: 100%;
+	}
 }
 
 .content,
 .page-header {
-	max-width: $content-max-width;
 	padding: 0 ($space + 5) $space;
-	margin: $space auto 0 auto;
+	@media (min-width: $desktop-break) {
+		max-width: calc(100% - 150px);
+		margin: $space 0 0 150px;
+	}
 }
 
 .page-header {
@@ -219,6 +233,28 @@ header > form {
 	}
 }
 
+nav[data-toggle='toc'] {
+	margin-top: 30px;
+	left: 300px;
+	z-index: 100;
+	width: 150px;
+	display: none !important;
+	a {
+		line-height: 1.7;
+	}
+	& .nav>.active:focus>a,
+	& .nav>.active:hover>a,
+	& .nav>.active>a,
+	& .nav>li>a:focus,
+	& .nav>li>a:hover{
+		color: #18cae6;
+		border-left-color: #18cae6;
+	}
+	@media (min-width: $desktop-break) {
+		display: block !important;
+	}
+}
+
 nav > ul {
 	padding: $space / 2 0;
 
@@ -229,7 +265,7 @@ nav > ul {
 
 .nav-item {
 	display: block;
-	font-family: "Open Sans", sans-serif;
+	font-family: "PT Sans", Arial, Verdana, Helvetica, sans-serif;
 	line-height: 1;
 	margin: 0;
 
@@ -252,7 +288,7 @@ nav > ul {
 	&.current > a,
 	> a:active,
 	> a:hover {
-		color: #111;
+		color: #18cae6;
 	}
 
 	&.top-level > a {
@@ -395,7 +431,7 @@ h4 svg {
 }
 
 .badge {
-	font-family: "Open Sans", sans-serif;
+	font-family: "PT Sans", Arial, Verdana, Helvetica, sans-serif;
 	padding: 2px 5px;
 	text-transform: uppercase;
 	font-size: 0.8rem;
@@ -410,12 +446,10 @@ h4 svg {
 }
 
 blockquote {
-	border-left: 5px solid #FD0;
+	border: 2px solid #18cae6;
 	padding: 10px 15px;
 	margin-left: -15px;
 	margin-right: -10px;
-	background-color: $brand-colour-light;
-	border-color: $brand-colour;
 
 	p:last-child {
 		margin-bottom: 0;
@@ -424,6 +458,12 @@ blockquote {
 	@media (max-width: $full-width-break) {
 		margin-left: 0;
 		margin-right: 0;
+	}
+	a {
+		color: #18cae6;
+		&:hover {
+			color: #18cae6;
+		}
 	}
 }
 
@@ -442,7 +482,6 @@ img {
 		width: 100%;
 		max-width: 500px;
 		box-sizing: border-box;
-		font-size: 2rem;
 		text-decoration: none;
 		padding: 10px 15px;
 		margin: 0;
