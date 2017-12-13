@@ -14,11 +14,10 @@ Anemone has been created with love in Prague.
 
 ## Special thanks
 
-For their great effort we owe a BIG thank to the following people and entities from the joint project development team (everybody did *a lot more* then what was expected from him):
+For their great effort we owe a BIG thank you to the following people and entities from the joint project development team (everybody did *a lot more* then what was expected from him):
 
 * *[Pedro Pinto da Silva](http://pedropintosilva.com)* for the outstanding graphical design of the entire platform including website, mobile app, Arduino app UI and infographics. This platform design has a story.
 * *[Martin Svoboda](https://github.com/svobom57)* for the development of Anemone Cloud Ruby on Rails application, background jobs processing and flow editor internals.
-* *[Šimon Kautský](https://twitter.com/SimonKautzky)* for the development of Anemone Mobile Client app both for iOS and Android in Unity3D and for solving all these ugly platform specific bugs.
 * *[Michal Mlejnek](https://github.com/chaemil)* for the huge amount of Anemone Tentacle 3D case model iterations in Blender - including the final one which you can print and enjoy. Michal also created all the frontend JS code for the flow editor.
 * *[Jana Moudrá](https://github.com/Janamou)* for coding the Anemone platform presentational website (the one at [https://www.anemone.cloud](https://www.anemone.cloud)). Fully responsive with all the cute JS features.
 * *[Jakub Dubrovský](https://twitter.com/Jakubdubrovsky)* for the daily communication and cooperation.

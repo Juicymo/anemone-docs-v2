@@ -8,8 +8,8 @@ $fa-font-path: "../assets/fonts/font-awesome/";
 
 $body-background-color: #2B2E31;
 
-$content-max-width: 800px;
-$content-color: #222;
+$content-max-width: 665px;
+$content-color: #1e1b40;
 $content-background-color: #fff;
 
 $brand-colour: #1e1b40;
@@ -23,6 +23,7 @@ $nav-width: 300px;
 $space: 20px;
 
 $mobile-break: 700px;
+$desktop-break: 992px;
 $full-width-break: $nav-width + ($space * 4) + $content-max-width;
 
 @import "mixins";
@@ -32,15 +33,3 @@ $full-width-break: $nav-width + ($space * 4) + $content-max-width;
 @import "code";
 @import "tables";
 @import "layout";
-
-article.content a {
-  color: #08ccbc;
-}
-
-article.content a.btn {
-  color: white;
-}
-
-nav[data-toggle='toc'] {
-  margin-top: 100px;
-}

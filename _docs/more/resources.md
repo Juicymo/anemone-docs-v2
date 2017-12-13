@@ -11,7 +11,7 @@ Current version of the Anemone Platform is `v2`.
 You can find more about Anemone Ecosystem at:
 
 * Presentational Website - [www.anemone.cloud](https://www.anemone.cloud)
-* Administration - [www.anemone.cloud/admin](https://www.anemone.cloud/admin)
+* Administration - [www.anemone.cloud/dashboard](https://www.anemone.cloud/dashboard)
 * Documentation - [docs.anemone.cloud](https://docs.anemone.cloud) **(you are here now)**
 * Mobile App
   * [Anemone iOS App](#)

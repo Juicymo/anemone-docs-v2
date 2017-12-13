@@ -8,11 +8,11 @@ order: 1
 
 ## Flows
 
-*Anemone Flow Editor* is an online environment where Anemone Flows can be created and adjusted. Here what is called *Anemone Application* are designed.
+*Anemone Flow Editor* is an online environment where Anemone Flows can be created and adjusted. Here what is called *Anemone Application* is designed.
 
 Anemone Flow Editor has two main components. The larger area on the left is the editor itself. Here the open flow can be adjusted.
 
-The smaller area on the right are logs. On the top is a **Console Log** where send to the *Console Output Nodes* from flow are shown. On the bottom is a **Flow Log** which shows usefull information about the flow - like when the flow is deployed or when some issues or errors are detected.
+The smaller area on the right are logs. On the top is a **Console Log** where send to the *Console Output Nodes* from flow are shown. On the bottom is a **Flow Log** which shows useful information about the flow - like when the flow is deployed or when some issues or errors are detected.
 
 > Every flow has to be *deployed* by the green **"Deploy"** button in the top right corner of the flow editor before it can be used.
 
@@ -36,7 +36,7 @@ These areas are shown as columns in the editor component.
 
 Every flow is divided into individual **Pipelines**. Pipeline is a sequence of *Nodes*.
 
-Data (we call them *messages*) are passed from the left part of the pipeline to the right. That is why the input of the flow is on the left and output on the right.
+Data (we call them *Messages*) are passed from the left part of the pipeline to the right. That is why the input of the flow is on the left and output on the right.
 
 Pipelines **can be forked**, but they **cannot be merged**.
 
@@ -50,7 +50,7 @@ There is no limitation in the amount of Nodes in one Pipeline. But as well as in
 
 ## Nodes
 
-![Anemone Flow Node](/images/node.png)
+![Anemone Flow Node](/images/node.png){:width="160px"}
 
 There are three types of **Nodes**. *Input*, *App* and *Output*. Every *node* can be configured by double clicking on it.
 
@@ -60,7 +60,7 @@ There are three types of **Nodes**. *Input*, *App* and *Output*. Every *node* ca
 
 Input nodes are **triggering messages**. They have to be at the beginning of every *Pipeline*.
 
-![Anemone Input Nodes](/images/input_nodes.png)
+![Anemone Input Nodes](/images/input_nodes.png){:width="375px"}
 
 There are 4 different input nodes:
 
@@ -90,19 +90,19 @@ Mobile Client Input node will load data from a Mobile Client application from th
 
 App nodes define the **application logic**. They are in the middle or at the end of a *Pipeline*.
 
-![Anemone App Nodes](/images/app_nodes.png)
+![Anemone App Nodes](/images/app_nodes.png){:width="375px"}
 
-There are 3 different app nodes *(at this moment, in the `v2` of Anemone Platform)*:
+There are 3 different app nodes *(at this moment, in the `v2` of the Anemone Platform)*:
 
 #### JS Function
 
 JS Function node allows you to write a piece of code in the [JavaScript](https://www.w3schools.com/js/) programming language. Purpose of this code is to manipulate or adjust the passing message.
 
-The JavaScript code you can write will be called as a function. It will get a variable called `msg`, where the received message is stored. The datatype of the passed `msg` variable is a *JavaScript Object*.
+The JavaScript code you write will be called as a function. It will get a variable called `msg`, where the received message is stored. The datatype of the passed `msg` variable is a *JavaScript Object*.
 
 You can freely adjust the individual properties of the `msg` object.
 
-Your JavaScript code should be always ended by the following statement where your adjusted `msg` will be returned for further processing:
+Your JavaScript code should always end with the following statement where your adjusted `msg` will be returned for further processing:
 
 ```javascript
 return msg;
@@ -121,7 +121,7 @@ Every JS Function node has a name.
 
 You can add more properties to the `msg` object if needed, but they can be ignored by some nodes. All nodes rely on existence of the `payload` property in the message.
 
-You can theoreticaly remove properties from the `msg` object, but to do so is not recommended. You should do that only when you know exactly what you are doing.
+You can theoretically remove properties from the `msg` object, but this is not recommended. You should do that only when you know exactly what you are doing.
 
 > You should write very small and quick JS Function nodes and perform only easy tasks in them in order to maintain performance of your Flow.
 
@@ -139,7 +139,7 @@ Authentication is done by API token.
 
 Load Account Balance node allows you to load account balance from the [CSAS WebAPI](https://developers.csas.cz/) **Account Balance Endpoint**.
 
-The result of the interaction (of the API call) is returned as new message. This allows you to interact to it in a required way.
+The result of the interaction (of the API call) is returned as new message. This allows you to interact with it in a required way.
 
 Authentication is done by OAuth. You can setup the OAuth WebAPI authentication on your [Dashboard](https://www.anemone.cloud/dashboard) by pressing the *"Link your profile with CSAS WebAPI"* button. **All flows owned by one Anemone Platform user share the OAuth identity to CSAS WebAPI**.
 
@@ -149,7 +149,7 @@ Authentication is done by OAuth. You can setup the OAuth WebAPI authentication o
 
 Output nodes allows **sending of data to Tentacles or Mobile Client**. They can be at the end of a *Pipeline*.
 
-![Anemone Output Nodes](/images/output_nodes.png)
+![Anemone Output Nodes](/images/output_nodes.png){:width="375px"}
 
 There are 3 different output nodes:
 

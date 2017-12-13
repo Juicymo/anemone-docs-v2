@@ -19,7 +19,7 @@ Anemone platform currently supports two open hardware devices based on [nodeMCU 
 
 Right now two low-cost hobby Tentacles based on [nodeMCU v2](https://www.seeedstudio.com/NodeMCU-v2-Lua-based-ESP8266-development-kit-p-2415.html) are supported - a [*Button*](/devices/button) and [*Display*](/devices/display).
 
-> Support for an industrial quality devices from the [BigClown family](https://www.bigclown.com/) is coming soon.
+> Support for the industrial quality devices from the [BigClown family](https://www.bigclown.com/) is coming soon.
 
 ### Button Tentacle
 
@@ -55,13 +55,13 @@ Right now two low-cost hobby Tentacles based on [nodeMCU v2](https://www.seeedst
 * Requires USB Power
 * Industrial quality and usage
 
-> **Support for this Tentacle Coming Soon!** But [a cute 3D Printable Case](https://www.thingiverse.com/thing:2679107) for it can be [downloaded](https://www.thingiverse.com/thing:2679107) right now.
+> **Support for this Tentacle is coming soon!** But you can download [a cute 3D Printable Case](https://www.thingiverse.com/thing:2679107) for it right now.
 
-*BigClown Base Tentacle* allows you to read various data and send it to your [Flow](/cloud/flows). It has a modular sensor architecture (sensors in BigClown world are called *Tags*). BigClown Base Tentacle does not have ability to connect itself to the internet *(therefore to the Anemone Cloud)* directly. You will need to connect it to your computer or RaspberryPi via USB cable or wirelessly to the [BigClown USB Dongle](https://shop.bigclown.com/usb-dongle/).
+*BigClown Base Tentacle* allows you to read various data and send it to your [Flow](/cloud/flows). It has a modular sensor architecture (sensors in BigClown world are called *Tags*). BigClown Base Tentacle does not have the ability to connect itself to the internet *(therefore to the Anemone Cloud)* directly. You will need to connect it to your computer or RaspberryPi via USB cable or wirelessly to the [BigClown USB Dongle](https://shop.bigclown.com/usb-dongle/).
 
 On the other hand *BigClown Base Tentacle* can receive wireless data from the rest of your BigClown network (for example from the [BigClown (BC) Remote Tentacle](#bigclown-bc-remote-tentacle), the [BigClown USB Dongle](https://shop.bigclown.com/usb-dongle/) can be used for that purpose as well).
 
-> BigClown Tentacles are more complex, versatile and robust than the low-cost tentacles based on NodeMCU v2. BigClown Tentacles have industrial quality. But all come for a cost. BigClown Tentacles are also more expensive.
+> BigClown Tentacles are more complex, versatile and robust than the low-cost tentacles based on NodeMCU v2. BigClown Tentacles have industrial quality. But all of this comes for a cost. BigClown Tentacles are also more expensive.
 
 [More about BigClown (BC) Base Tentacle <i class="fa fa-arrow-right" aria-hidden="true"></i>](/devices/bc_base)
 
@@ -74,13 +74,13 @@ On the other hand *BigClown Base Tentacle* can receive wireless data from the re
 * Wireless
 * Industrial quality and usage
 
-> **Support for this Tentacle Coming Soon!** But a [cute 3D Printable Case](https://www.thingiverse.com/thing:2698754) for it can be [downloaded](https://www.thingiverse.com/thing:2698754) right now.
+> **Support for this Tentacle is coming soon!** But a [cute 3D Printable Case](https://www.thingiverse.com/thing:2698754) for it can be [downloaded](https://www.thingiverse.com/thing:2698754) right now.
 
 *BigClown Remote Tentacle* allows you to read various data and send it to your [Flow](/cloud/flows). It has a modular sensor architecture (sensors in BigClown world are called *Tags*). BigClown Remote Tentacle does not have ability to connect itself to the internet *(therefore to the Anemone Cloud)* directly. You will need to connect it wirelessly to the [BigClown Base Tentacle](#bigclown-bc-base-tentacle) or directly to the [BigClown USB Dongle](https://shop.bigclown.com/usb-dongle/).
 
-On the other hand *BigClown Remote Tentacle* is **the ONLY Tentacle which can operate completelly wirelessly**. It can collect data and send them over radio. It is povered by four AAA batteries.
+On the other hand *BigClown Remote Tentacle* is **the ONLY Tentacle which can operate completely wirelessly**. It can collect data and send them over radio. It is powered by four AAA batteries.
 
-> BigClown Tentacles are more complex, versatile and robust than the low-cost tentacles based on NodeMCU v2. BigClown Tentacles have industrial quality. But all come for a cost. BigClown Tentacles are also more expensive.
+> BigClown Tentacles are more complex, versatile and robust than the low-cost tentacles based on NodeMCU v2. BigClown Tentacles have industrial quality. But all of this comes for a cost. BigClown Tentacles are also more expensive.
 
 [More about BigClown (BC) Remote Tentacle <i class="fa fa-arrow-right" aria-hidden="true"></i>](/devices/bc_remote)
 
