@@ -13,9 +13,9 @@ You can find more about Anemone Ecosystem at:
 * Presentational Website - [www.anemone.cloud](https://www.anemone.cloud)
 * Administration - [www.anemone.cloud/dashboard](https://www.anemone.cloud/dashboard)
 * Documentation - [docs.anemone.cloud](https://docs.anemone.cloud) **(you are here now)**
-* Mobile App
-  * [Anemone iOS App](#)
-  * [Anemone Android App](#)
+* Mobile Apps *(alpha versions)*
+  * [Anemone Android App](https://play.google.com/store/apps/details?id=cz.juicymo.contracts.android.anemone.beta)
+  * Anemone iOS App *(coming soon)*
 * [Anemone v1 Platform Overview Presentation](https://www.slideshare.net/nanos311/anemonecloud-open-platform-for-iot) *(deprecated)*
 
 ## 3D Printable Tentacle Cases
@@ -23,8 +23,8 @@ You can find more about Anemone Ecosystem at:
 You can download and 3D print a cute case for any of Anemone Tentacles from *Thingiverse*:
 
   * Anemone v2 Tentacles:
-    * [Button Tentacle (NodeMCUv2)](#)
-    * [Display Tentacle (NodeMCUv2)](#)
+    * [Button Tentacle (NodeMCUv2)](https://www.thingiverse.com/thing:2750464)
+    * [Display Tentacle (NodeMCUv2)](https://www.thingiverse.com/thing:2751157)
     * [BigClown Base Tentacle (BigClown Base Station)](https://www.thingiverse.com/thing:2679107)
     * [BigClown Remote Tentacle (BigClown Remote Station)](https://www.thingiverse.com/thing:2698754)
   * Anemone v1 Tentacles *(deprecated)*:

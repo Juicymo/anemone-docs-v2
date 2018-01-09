@@ -20,6 +20,8 @@ As a display component a low-cost **128x64 OLED i2c Display**. It can be obtaine
 
 ## How to build
 
+> Download and 3D print [a cute 3D Printable Case](https://www.thingiverse.com/thing:2751157) for the Display Tentacle from [Thingiverse](https://www.thingiverse.com/thing:2751157).
+
 ### Components
 
 The following components are needed for your *Display Tentacle*:

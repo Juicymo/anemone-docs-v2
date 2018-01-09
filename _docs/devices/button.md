@@ -18,6 +18,8 @@ Button Tentacle is based on the **NodeMCU v2** *(with CP2102 chipset)*. The requ
 
 ## How to build
 
+> Download and 3D print [a cute 3D Printable Case](https://www.thingiverse.com/thing:2750464) for the Display Tentacle from [Thingiverse](https://www.thingiverse.com/thing:2750464).
+
 ### Components
 
 The following components are needed for your *Button Tentacle*:

@@ -58,13 +58,17 @@ Two low cost Tentacles based on the hobby low-cost [nodeMCU v2](https://www.seee
 
 ## Mobile App
 
-Anemone Platform ships with a Mobile App for both [iOS](#) and [Android](#) operating systems. The mobile app is called `Mobile Client` in the platform terminology.
+Anemone Platform ships with a Mobile App for both iOS *(coming soon)* and [Android](https://play.google.com/store/apps/details?id=cz.juicymo.contracts.android.anemone.beta) operating systems. The mobile app is called `Mobile Client` in the platform terminology.
 
 *Mobile Client* can be used by a signed in user to access Flows owned by him. User can interact with these flows by triggering input values and actions or by reading output values.
 
 Content and options available in the *Mobile Client* are fully driven by the flow. As such can be configured exclusively in the [Flow Editor](/cloud/editor).
 
-TODO Buttons to download the app from App Stores
+You can download the ALPHA version of the mobile applications:
+
+<a href='https://play.google.com/store/apps/details?id=cz.juicymo.contracts.android.anemone.beta&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+
+*iOS version is coming soon*
 
 ## Architecture
 
@@ -99,3 +103,5 @@ The **Flow Editor** is a web application written in JavaScript. It is connected 
 -----
 
 [<i class="fa fa-arrow-left" aria-hidden="true"></i> Previous chapter: Welcome](/) | [Next chapter: Cloud / Editor <i class="fa fa-arrow-right" aria-hidden="true"></i>](/cloud/editor)
+
+*Google Play and the Google Play logo are trademarks of Google LLC.*
